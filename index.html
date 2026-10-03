@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Nuestro Aniversario</title>
+</head>
+<body>
+    <div id="gifs-inicio">
+        <img id="chiikawa" class="decoracion-inicio" src="img/Chiikawa Sticker.gif">
+        <img id="hachiware" class="decoracion-inicio" src="img/HachiwareSticker.gif">
+    </div>
+
+    <div id="gifs-calendario" hidden>
+        <img id="rilakkuma-sor" src="img/rilakkumaSorprendido.gif">
+        <img id="mamegomas-abrazados" src="img/Pixel Love Sticker.gif">
+        <img id="sonic-impaciente" src="img/sonicgif.gif" alt="Cambiar GIF">
+    </div>
+
+    <div id="gifs-galeria" hidden>
+        <img id="charimera" src="img/charimera.png">
+        <img id="girasol" src="img/Summer Flower Sticker by Sonic the Hedgehog.gif">
+    </div>
+
+    <div id="gifs-no" hidden>
+        <img id="sonicExe" src="img/Sonic Exe GIF.gif">
+    </div>
+
+    <div id="gifs-carta" hidden>
+        <img id="mamegoma-corazon" src="img/Pixel Love Sticker (1).gif">
+        <img id="zzz" src="img/usagiHachiZZz.gif">
+    </div>
+
+    <div id="gifs-despedida" hidden>
+        <img id="jokebear" src="img/Bear Jokebear Sticker by nagano.gif">
+    </div>
+
+    <main>
+        <section id="inicio">
+            <h1>Te hice una cartita</h1>
+            <p>Queres leerla?</p>
+
+
+            <button type="button" id="abrir-carta">Si</button>
+            <button type="button" id="me-odias">No, t odio</button>
+        </section>
+
+        <section id="pantalla-no" hidden>
+            <h2>POR QUÉ NO?</h2>
+            <p>Estas obligado a leerla,DALE.</p>
+
+            <button type="button" id="preguntar-otra-vez">Te pregunto otra vez.</button>
+        </section>
+
+        <section id="calendario" hidden>
+            <h2>Nuestro aniversario</h2>
+
+            <div class="calendario">
+                <h3>Septiembre 2026</h3>
+
+                <div class="dias-semana">
+                <span>Lun</span>
+                <span>Mar</span>
+                <span>Mié</span>
+                <span>Jue</span>
+                <span>Vie</span>
+                <span>Sáb</span>
+                <span>Dom</span>
+                </div>
+
+                <div class="dias-mes">
+                <span> </span><span>1</span><span>2</span><span>3</span>
+                <span>4</span><span>5</span><span>6</span><span>7</span>
+                <span>8</span><span>9</span><span>10</span><span>11</span>
+                <span>12</span><span>13</span><span>14</span><span>15</span>
+                <span>16</span><span>17</span><span>18</span><span>19</span>
+                <span>20</span><span>21</span><span>22</span><span>23</span>
+                <span>24</span><span>25</span><span>26</span><span>27</span>
+                <span>28</span><span class="fecha-aniversario">29 ♥</span><span>30</span>
+                </div>
+            </div>
+
+            <div id="contador" class="contador"></div> 
+            <button type="button" id="ir-a-fotos">Sigamos je</button>
+        </section>
+
+        <section id="recuerdos" hidden>
+            <h2>♡Algunas de nuestras fotitos y recuerdos juntos♡</h2>
+            <div class="recuerdos-layout">
+                <div class="galeria-recuerdos">
+                    <figure>
+                        <a
+                            class="enlace-recuerdo"
+                            href="https://youtu.be/qt83jtmjClM?si=svuGxQFd__tA9pp2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                        <img src="fotos/terraza.jpeg" alt="Nosotros en la terraza">
+                        </a>
+                    <figcaption>Una de nuestras primeras fotos juntitos (๑˃́ꇴ˂̀๑)</figcaption>
+                    </figure>
+
+                    <figure>
+                    <img src="fotos/tiniendo.jpeg" alt="Los pelo azul y yo">
+                    <figcaption>Cuando m teñiste, antes de quedarme pelona ٩(ˊᗜˋ*)و ♡</figcaption>
+                    </figure>
+
+                    <figure>
+                    <img src="fotos/kevboni.jpeg" alt="Mis bebes">
+                    <figcaption>Vos con la boni, no t imaginas cuanto amo esta foto</figcaption>
+                    </figure>
+                    
+                    <figure>
+                    <img src="fotos/minions.jpeg" alt="minions">
+                    <figcaption>papoi?</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a
+                            class="enlace-recuerdo"
+                            href="https://youtu.be/lcoqOPaBe9M?si=Gi-THS-V9yIMiVP2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            <img src="fotos/coraline.jpeg" alt="Coraline y la puerta secreta">
+                            </a>
+                    <figcaption>Me gusto mucho disfrazarme con vos .о(≧∀≦)о</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a
+                            class="enlace-recuerdo"
+                            href="https://youtu.be/2tUdWy2s3GQ?si=SUbLnWR3jgWHAuuR"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                        <img src="fotos/ojos.jpeg" alt="OJO">
+                        </a>
+                    <figcaption>Una de nuestra ultimas fotos juntos, y todas las que aun faltan.♡</figcaption>
+                    </figure>
+                </div>
+
+                <button type="button" id="ir-a-cartita">Leer la carta</button>
+            </div>
+        </section>
+
+        <section id="carta" hidden>
+            <h1>Primer año juntos!</h1>
+            <p id="texto-carta"></p>
+
+            <button type="button" id="boton-fin">Fin</button>
+
+        </section>
+
+        <section id="despedida" hidden>
+            <h2>Hasta aca llegue</h2>
+            <p>Espero te haya gustado amor mio</p>
+            <p>Te amo muchisimo corazom.</p>
+
+            <button type="button" id="volver-inicio-final">
+                Volver al principio
+            </button>
+        </section>
+    </main>
+</body>
